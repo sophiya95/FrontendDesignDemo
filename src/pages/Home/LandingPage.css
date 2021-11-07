@@ -1,0 +1,1077 @@
+.container{
+    background-color: lavender;
+}.navbarClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 32px;
+    position: absolute;
+    width: 1200px;
+    height: 74px;
+    left: 0px;
+    top: 0px;
+    background: #AFB3BE;
+}
+.circleoneImage{
+    position: absolute;
+    left: 4.07%;
+    right: 55.56%;
+    top: 16.41%;
+    bottom: 72.22%;
+}
+.circletwoImage{
+    position: absolute;
+    left: 3.7%;
+    right: 37.5%;
+    top: 29.28%;
+    bottom: 14.35%;
+
+}
+.circlethreeImage{
+    position: absolute;
+    left: 6.07%;
+    right: 55.56%;
+    top: 16.41%;
+    bottom: 72.22%;
+    width: 1%;
+    height: 22%;
+
+}
+.circlefourImage{
+    position: absolute;
+    left: 5%;
+    right: 29.63%;
+    top: 62.15%;
+    bottom: 6.48%;
+}
+.circlefiveImage{
+    position: absolute;
+    left: 6.43%;
+    right: -38.43%;
+    top: 32.87%;
+    bottom: 62.5%;
+    
+}
+.exploreClass{
+    position: static;
+    width: 89px;
+    height: 29px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Work Sans';
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+    opacity: 0.85;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 48px;
+}
+.createClass{
+    position: static;
+    width: 77px;
+    height: 29px;
+    left: 137px;
+    top: 0px;
+    font-family: Work Sans;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+    opacity: 0.85;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 48px;
+    }
+    .mainheadClass{
+        position: absolute;
+        width: 449px;
+        height: 172px;
+        left: 34px;
+        top: 148px;
+        position: absolute;
+        width: 449px;
+        height: 172px;
+        left: 34px;
+        top: 148px;
+        color: #000000;
+    }
+    .exploreClass,.createClass,.connectClass,.helpClass{
+        display: flex;
+        justify-content: space-between;
+    }
+.firstlinkClas{
+    position: static;
+    width: 77px;
+    height: 29px;
+    left: 137px;
+    top: 0px; 
+    font-family: Work Sans;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+    opacity: 0.85;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 48px;
+}
+::placeholder {
+    position: static;
+    width: 93px;
+    height: 24px;
+    left: 10px;
+    top: 10px;
+    font-family: Work Sans;
+    font-size: 13px;
+    line-height: 150%;
+    color: #000000;
+  }
+.lineClass{
+    border: 1px solid #FCB705 ;
+    position: absolute;
+    width: 415px;
+    height: 5px;
+    left: 81px;
+    top: 67px;
+
+
+}
+.domainTitle{
+    position: absolute;
+    width: 415px;
+    height: 58px;
+    left: 81px;
+    top: 76px;
+    font-family: Work Sans;
+    font-size: 48px;
+    line-height: 120%;
+    color: #000000;
+}
+.secondimage{
+    position: static;
+    width: 250px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+    margin-left: -89%;
+    margin-top: 32%;
+    
+}
+.artificialClass{
+    position: absolute;
+    width: 365px;
+    height: 43px;
+    left: 77px;
+    top: 449px;
+    font-family: Work Sans;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+   
+}
+.artparaClass{
+    position: absolute;
+    width: 467px;
+    height: 120px;
+    left: 76px;
+    top: 542px;
+    font-family: Work Sans;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+   
+}
+.readButtonone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    width: 101px;
+    height: 44px;
+    left: -82px;
+    top: 704px;
+    background: #424242;
+    margin-left: 13.3%;
+    font-size: 19px;
+    font-family: Work Sans;
+    line-height: 152%
+}
+.thirdImage{
+    position: absolute;
+    left: 75px;
+    top: 801px;
+    width: 444.44px;
+    height: 250px;
+
+}
+.machineClass{
+    position: absolute;
+    width: 311px;
+    height: 43px;
+    left: 76px;
+    top: 1056px;
+    font-family: Work Sans;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 22px 0px;
+}
+.machineparaClass{
+    position: absolute;
+    width: 467px;
+    height: 120px;
+    left: 81px;
+    top: 1119px;
+    font-family: Work Sans;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.readButtontwo{
+    text-transform: lowercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    width: 101px;
+    height: 44px;
+    left: 78px;
+    top: 1280px;
+    background: #424242;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-size: 19px;
+    font-family: Work Sans;
+    line-height: 152%
+}
+.FourthImage{
+    position: absolute;
+    width: 262.63px;
+    height: 250px;
+    left: 562px;
+    top: 39px;
+    margin-left: 11%;
+    margin-top: 14%;
+}
+.machinelearningClass{
+    position: absolute;
+    width: 311px;
+    height: 43px;
+    left: 690px;
+    top: 451px;
+    font-family: Work Sans;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000000;
+}
+.machinelearningparaClass{
+    position: absolute;
+    width: 467px;
+    height: 120px;
+    left: 694px;
+    top: 540px;
+    font-family: Work Sans;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 22px 0px;
+}
+.readButtonthree{
+    text-transform: lowercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    width: 101px;
+    height: 44px;
+    left: 694px;
+    top: 704px;
+    background: #424242;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-size: 19px;
+    font-family: Work Sans;
+    line-height: 152%
+
+}
+.FifthImage{
+    position: absolute;
+    width: 386.61px;
+    height: 250px;
+    left: 543px;
+    top: 655px;
+    margin-left: 12.3%;
+    margin-top: 11%;
+}
+.cloudClass{
+    position: absolute;
+    width: 365px;
+    height: 43px;
+    left: 692px;
+    top: 1038px;
+    font-family: Work Sans;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0
+}
+.cloudparaClass{
+    position: absolute;
+    width: 467px;
+    height: 120px;
+    left: 698px;
+    top: 1119px;
+    font-family: Work Sans;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.readButtonfour{
+    text-transform: lowercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    width: 101px;
+    height: 44px;
+    left: 698px;
+    top: 1280px;
+    background: #424242;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-size: 19px;
+    font-family: Work Sans;
+    line-height: 152%
+
+}
+.sixthImage{
+    width: 6%;
+    margin-left: 51%;
+    margin-top: 10%;
+}
+.circleImageOne{
+    position: absolute;
+    left: 4.07%;
+    right: 55.56%;
+    top: 15.41%;
+    bottom: 72.22%;
+}
+.circleImageTwo{
+    position: absolute;
+    left: 3.5%;
+    right: 37.5%;
+    top: 19.28%;
+    bottom: 14.35%;
+}
+.circleImageThree{
+    position: absolute;
+    left: 5%;
+    right: 29.63%;
+    top: 30.15%;
+    bottom: 6.48%;
+}
+.circleImageFour{
+    position: absolute;
+    left: 6%;
+    right: 3.7%;
+    top: 15.41%;
+    bottom: 72.22%;
+}
+.circleImageFive{
+    position: absolute;
+    left: 6.3%;
+    right: -38.43%;
+    top: 19.87%;
+    bottom: 62.5%;
+}
+.ipseClass{
+    position: absolute;
+    width: 150px;
+    height: 29px;
+    left: 310px;
+    top: -18px;
+    font-family: Work Sans;
+    font-size: 24px;
+    color: #000000;
+    line-height: 276%;
+    
+}
+.serviceClass{
+    position: absolute;
+    width: 150px;
+    height: 29px;
+    left: 662px;
+    top: -18px;
+    font-family: Work Sans;
+    font-size: 24px;
+    color: #000000;
+    line-height: 276%;
+
+}
+.followClass{
+    position: absolute;
+    width: 150px;
+    height: 29px;
+    left: 1020px;
+    top: -18px;
+    font-family: Work Sans;
+    font-size: 24px;
+    color: #000000;
+    line-height: 276%;
+}
+.seventhImage{
+    position: absolute;
+    left: 25.83%;
+    right: 20.83%;
+    top: 33.49%;
+    bottom: 12.5%;
+}
+.locationClass{
+    width: 76px;
+    height: 22px;
+    position: absolute;
+    left: 340px;
+    top: 39px;
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+    
+}
+.mailImage{
+    position: absolute;
+    left: 25.5%;
+    right: 8.33%;
+    top: 49.67%;
+    bottom: 16.67%;
+}
+.phoneImage{
+    position: absolute;
+    left: 25.8%;
+    right: 9.37%;
+    top: 67.38%;
+    bottom: 9.37%;
+}
+.connectionClass{
+    position: absolute;
+    width: 110px;
+    height: 22px;
+    left: -110.9%;
+    top: 155%;
+    margin-left: 166%;
+    margin-top: -18%;
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+}
+.LinkImage{
+    position: absolute;
+    left: 85%;
+    top: 34%;
+    }
+.FaceImage{
+    position: absolute;
+    left: 88%;
+    top: 34%;
+    
+}
+.TwitImage{
+    position: absolute;
+    width: 22px;
+    height: 18px;
+    left: 91%;
+    top: 35%;
+}
+.mailClass{
+    position: absolute;
+    width: 163px;
+    height: 22px;
+    left: 340px;
+    top: 50px;
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 270%;
+    color: #000000;
+}
+.phoneClass{
+    position: absolute;
+    width: 134px;
+    height: 22px;
+    left: 28%;
+    top: 23%;
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 701%;
+    color: #000000;
+    flex: none;
+    order: 1;
+}
+.contactClass{
+    position: absolute;
+    width: 79px;
+    height: 22px;
+    left: 55.1%;
+    top: 68px;
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+}
+.popularClass{
+    position: absolute;
+    width: 68px;
+    height: 22px;
+    left: 109.2%;
+    top: 139px;
+    margin-left: -54%;
+    margin-top: -2%;
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+}
+
+/*************** MOBILE VIEW ******************/
+.rectImage{
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    left: 0px;
+    top: 21px;
+    background: #000000;
+    border-radius: 4px;
+    margin-left: 5%;
+}
+.rectImage2{
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    left: 19px;
+    top: 29px;
+    background: #000000;
+    border-radius: 4px;
+}
+.rectImage3{
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    left: 19px;
+    top: 37px;
+    background: #000000;
+    border-radius: 4px;
+}
+.ellipseImage{
+    position: absolute;
+    left: 21.43%;
+    right: -38.43%;
+    top: 17.87%;
+    bottom: 62.5%;
+    transform: rotate(90deg);
+}
+.mobilecircleImage{
+    position: absolute;
+    left: 20%;
+    right: 37.5%;
+    top: 26.28%;
+    bottom: 14.35%;
+}
+.mobilecirclethreeImage{
+    position: absolute;
+    left: 24%;
+    right: 29.63%;
+    top: 52.15%;
+    bottom: 6.48%;
+}
+.mobilecirclefourImage{
+    position: absolute;
+    left: 26.93%;
+    right: 3.7%;
+    top: 18.41%;
+    bottom: 72.22%;
+}
+.mobilecirclefiveImage{
+    position: absolute;
+    left: 27.8%;
+    right: 3.7%;
+    top: 31.41%;
+    bottom: 72.22%;
+    background: #FF3946;
+    transform: rotate(181deg);
+}
+.mobileconnectedClass{
+    position: absolute;
+    width: 265px;
+    height: 116px;
+    left: 24px;
+    top: 100px;
+    font-family: Work Sans;
+    font-size: 48px;
+    line-height: 120%;
+    color: #000000;
+}
+.paraClass1{
+    position: absolute;
+    width: 306px;
+    height: 87px;
+    left: 29px;
+    top: 223px;
+    font-family: Work Sans;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+    opacity: 0.85;
+}
+.mobilelearnButton{
+    text-transform: capitalize;
+    color: red;
+    width: 136px;
+    font-family: "Work Sans";
+    font-size: 15px;
+    line-height: 120%;
+    border-color: red;
+    position: absolute;
+    width: 130px;
+    height: 42px;
+    left: 0px;
+    top: 633px;
+    border: 2px solid #D7313B;
+    box-sizing: border-box;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px;
+    padding: 10px 15px;
+}
+.mobileconnectButton{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    position: absolute;
+    width: 104px;
+    height: 42px;
+    left: 169px;
+    top: 632px;
+    background: #FF3946;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 32px;
+
+}
+.mobilefirstImage{
+    
+    position: absolute;
+    width: 327px;
+    height: 199px;
+    left: 24px;
+    top: 391px;
+
+}
+.mobileartificialClass{
+    position: absolute;
+    top: 409px;
+    left: 27px;
+    width: 244px;
+    height: 29px;
+    font-family: Work Sans;
+    font-size: 28px;
+    line-height: 120%;
+    color: #000000;
+}
+.mobileartparaClass{
+    position: absolute;
+    width: 327px;
+    height: 192px;
+    left: 29px;
+    top: 473px;
+    font-family: Work Sans;
+    font-size: 19px;
+    line-height: 150%;
+    color: #000000;
+    margin: 22px 0px;
+}
+.mobilereadButtonone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    width: 101px;
+    height: 44px;
+    left: 29px;
+    top: 717px;
+    background: #424242;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 22px 0px;
+    align-items: center;
+
+}
+.mobileFourthImage{
+    position: absolute;
+    width: 262.63px;
+    height: 250px;
+    left: 29px;
+    top: 872px;
+}
+.mobilemachineClass{
+    position: absolute;
+    top: 1102px;
+    left: 30px;
+    width: 244px;
+    height: 29px;
+    font-family: Work Sans;
+    font-size: 28px;
+    line-height: 120%;
+    color: #000000;
+}
+.mobilemachineparaClass{
+    position: absolute;
+    width: 327px;
+    height: 192px;
+    left: 33px;
+    top: 1169px;
+    font-family: Work Sans;
+    font-size: 19px;
+    line-height: 150%;
+    color: #000000;
+    margin: 22px 0px;
+}
+.mobilereadButtontwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    width: 101px;
+    height: 44px;
+    left: 36px;
+    top: 1413px;
+    background: #424242;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 22px 0px;
+    align-items: center;
+
+}
+.mobilethirdImage{
+    position: absolute;
+    width: 304px;
+    height: 184px;
+    left: 36px;
+    top: 1523px;
+    margin: 28px 0px;
+
+}
+.mobilemachinelearningClass{
+    position: absolute;
+    top: 1718px;
+    left: 36px;
+    width: 207px;
+    height: 29px;
+    font-family: Work Sans;
+    font-size: 28px;
+    line-height: 120%;
+    color: #000000;
+}
+.mobilemachinelearningparaClass{
+    position: absolute;
+    width: 327px;
+    height: 192px;
+    left: 36px;
+    top: 1780px;
+    font-family: Work Sans;
+    font-size: 19px;
+    line-height: 150%;
+    color: #000000;
+    margin: 22px 0px;
+}
+.mobilereadButtonthree{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    width: 101px;
+    height: 44px;
+    left: 36px;
+    top: 2027px;
+    background: #424242;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 22px 0px;
+    align-items: center;
+
+}
+.mobileFifthImage{
+    position: absolute;
+    width: 328px;
+    height: 212px;
+    left: 5%;
+    top: 73.5%;
+}
+.mobileCloudClass{
+    position: absolute;
+    top: 80%;
+    left: 9.1%;
+    width: 207px;
+    height: 29px;
+    font-family: Work Sans;
+    font-size: 28px;
+    line-height: 120%;
+    color: #000000;
+}
+.mobileCloudparaClass{
+    position: absolute;
+    width: 327px;
+    height: 192px;
+    left: 10%;
+    top: 82.5%;
+    font-family: Work Sans;
+    font-size: 19px;
+    line-height: 150%;
+    color: #000000;
+    margin: 22px 0px;
+}
+.mobilereadButtonfour{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    width: 101px;
+    height: 44px;
+    left: 10%;
+    top: 90.5%;
+    background: #424242;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 22px 0px;
+    align-items: center;
+
+}
+.mobilesixthImage{
+    position: absolute;
+    left: 9.07%;
+    right: 55.56%;
+    top: 4.41%;
+    bottom: 72.22%;
+}
+.mobileEllipse2{
+    position: absolute;
+    left: 7.7%;
+    right: 37.5%;
+    top: 5.28%;
+    bottom: 14.35%;
+}
+.mobileEllipse3{
+    position: absolute;
+    top: 8.19%;
+    left: 13%;
+    right: 29.63%;
+    bottom: 6.48%;
+
+}
+.mobileEllipse4{
+    position: absolute;
+    left: 15.93%;
+    right: 3.7%;
+    top: 4.40%;
+    bottom: 72.22%;
+}
+
+.mobileEllipse5{
+    position: absolute;
+    left: 16.6%;
+    right: -38.43%;
+    top: 5.87%;
+    bottom: 62.5%;
+}
+.mobileipseClass{
+    position: absolute;
+    width: 150px;
+    height: 29px;
+    left: 0px;
+    top: 50px;
+    color: #000000;
+    font-family: Work Sans;
+    font-size: 24px;
+    line-height: 120%;
+    margin-left: 7%;
+    margin-top: 14%;
+}
+.mobileseventhImage{
+    position: absolute;
+    left: 8%;
+    top: 22.4%;
+
+}
+.mobilelocationClass{
+    position: absolute;
+    width: 76px;
+    height: 22px;
+    left: 59px;
+    top: 121px;
+    color: #000000;
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 120%;
+
+}
+.mobilemailImage{
+    position: absolute;
+    left: 7.33%;
+    right: 8.33%;
+    top: 27.5%;
+    
+}
+.mobileMailClass{
+    position: absolute;
+    width: 163px;
+    height: 22px;
+    left: 51px;
+    top: 169px;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+    margin: 0px 8px;
+}
+.mobilephoneImage{
+    position: absolute;
+    left: 7.33%;
+    right: 9.38%;
+    top: 32.38%;
+    bottom: 9.37%;
+}
+.mobilephoneClass{
+    position: absolute;
+    width: 134px;
+    height: 22px;
+    left: 58px;
+    top: 181px;
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 120%;
+    color: black;
+}
+.mobileServiceClass{
+    position: absolute;
+    width: 99px;
+    height: 29px;
+    left: 25px;
+    top: 255px;
+    font-family: Work Sans;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+    margin: 16px 0px;
+}
+.mobileconnectionClass{
+    position: absolute;
+    width: 110px;
+    height: 22px;
+    left: 31px;
+    top: 290px;
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+
+}
+.mobilecontactClass{
+    position: absolute;
+    width: 110px;
+    height: 22px;
+    left: 31px;
+    top: 318px;
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+}
+.mobilepopularClass{
+    position: absolute;
+    width: 110px;
+    height: 22px;
+    left: 33px;
+    top: 346px;
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+
+}
+.mobileFollowClass{
+    position: absolute;
+    width: 150px;
+    height: 29px;
+    left: 26px;
+    top: 410px;
+    font-family: 'Work Sans';
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+.mobileLinkImage{
+    position: absolute;
+    left: 7.33%;
+    right: 8.33%;
+    top: 74.5%;
+}
+.mobileFaceImage{
+    position: absolute;
+    left: 17.94%;
+    right: 10.94%;
+    top: 74.5%;
+}
+.mobileTwitImage{
+    position: absolute;
+    width: 22px;
+    height: 18px;
+    left: 105px;
+    top: 74.6%;
+}
+
+
+
+
+
+
+

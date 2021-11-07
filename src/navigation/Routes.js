@@ -1,6 +1,6 @@
 import React from 'react'
-import Home from '../pages/Home/Home'
 import { Route,BrowserRouter as Router,Switch } from  'react-router-dom';
+import LandingPage from '../pages/Home/LandingPage';
 
 function Routes() {
     return (
@@ -9,7 +9,7 @@ function Routes() {
             
                 <Switch>         
                         
-                        <Route exact path="/" component={Home}/>
+                        <Route exact path="/" component={LandingPage}/>
                 </Switch>
            
             
