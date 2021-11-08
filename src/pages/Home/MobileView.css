@@ -1,0 +1,589 @@
+.mobileParentDiv{
+    background-color: #E6E6E6;
+    min-height: 4000px;
+    width: 361px;
+}
+
+/* ****** LANDING PAGE ********* */
+
+.mobileLandingPage{
+    background: white;
+    position: relative;
+    width: 1022px;
+    height: 812px;
+    top: -1px;
+
+}
+.mobilenavbarClass{
+    background: #AFB3BE;
+    margin-top: 0%;
+}
+.mobilerectImageOne{
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    left: 26px;
+    top: 22px;
+    background: #000000;
+    border-radius: 4px;
+    
+}
+.mobilerectImageTwo{
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    left: 26px;
+    top: 29px;
+    background: #000000;
+    border-radius: 4px;
+    
+}
+.mobilerectImageThree{
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    left: 26px;
+    top: 36px;
+    background: #000000;
+    border-radius: 4px;
+    
+}
+.mobileellipseImageOne{
+    position: absolute;
+    left: 23%;
+    top: 24%;
+}
+.mobileellipseImageTwo{
+    position: absolute;
+    left: 21.6%;
+    top: 33%;
+}
+.mobileellipseImageThree{
+    position: absolute;
+    left: 26%;
+    top: 54%;
+}
+.mobileellipseImageFour{
+    position: absolute;
+    left: 30%;
+    top: 24%;
+}
+.mobileellipseImageFive{
+    position: absolute;
+    left: 30.8%;
+    top: 35%;
+}
+.mobileExploreclass{
+    position: absolute;
+    width: 41px;
+    height: 22px;
+    left: 309px;
+    top: 18px;
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+    opacity: 0.85;
+
+}
+.mobilemainheadingClass{
+    position: absolute;
+    width: 265px;
+    height: 116px;
+    left: 22px;
+    top: 95px;
+    font-family: Work Sans;
+    font-size: 48px;
+    line-height: 120%;
+    color: #000000;
+}
+.mobilelandpageparaClass{
+    position: absolute;
+    width: 306px;
+    height: 87px;
+    left: 29px;
+    top: 246px;
+    font-family: Work Sans;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+    opacity: 0.85;
+}
+.mobileheroImageClass{
+    position: absolute;
+    width: 327px;
+    height: 199px;
+    left: 16px;
+    top: 395px;
+}
+.mobilelearnmoreButton,.mobileconnectButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+}
+.mobilelearnmoreButton{
+    position: absolute;
+    width: 130px;
+    height: 42px;
+    left: 35px;
+    top: 645px;
+    border: 2px solid #D7313B;
+    box-sizing: border-box;
+    background: white;
+    color: #D7313B;
+}
+.mobileconnectButton{
+    position: absolute;
+    width: 104px;
+    height: 42px;
+    left: 191px;
+    top: 645px;
+    color: white;
+    background: #FF3946;
+    border: none;
+}
+
+/* ******* FORM PAGE ******** */
+
+.mobileformMaindiv{
+    position: relative;
+    height: 706px;
+    background: #EFEFEF;
+    width: 360px;
+    top: 113px;
+    left: 0px;
+
+}
+.mobileformPage{
+    background: white;
+    position: absolute;
+    width: 325px;
+    height: 457px;
+    left: 20px;
+    top: 123px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 32px;
+}
+.mobileformTitle{
+    position: static;
+    width: 171px;
+    height: 28px;
+    left: 24px;
+    top: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.mobilenameLabelClass,.mobileoccupationLabelClass,.mobileaddressLabelClass{
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+}
+.mobilenameLabelClass{
+    position: absolute;
+    width: 197px;
+    height: 21px;
+    left: 32px;
+    top: 89px;
+}
+.mobileNameClass{
+    position: absolute;
+    width: 270px;
+    height: 44px;
+    left: 32px;
+    top: 122px;
+}
+.mobileoccupationClass,.mobileNameClass,.mobileaddressClass{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: white;
+    background-color: white;
+    font-family: Work Sans;
+    font-size: 16px;
+    line-height: 150%;
+
+}
+.mobileoccupationLabelClass{
+    position: absolute;
+    width: 101px;
+    height: 21px;
+    left: 34px;
+    top: 186px;
+
+}
+.mobileoccupationClass{
+    position: absolute;
+    width: 270px;
+    height: 44px;
+    left: 32px;
+    top: 218px;
+
+}
+.mobileaddressLabelClass{
+    position: absolute;
+    width: 71px;
+    height: 21px;
+    left: 37px;
+    top: 283px;
+
+}
+.mobileaddressClass{
+    position: absolute;
+    width: 270px;
+    height: 44px;
+    left: 32px;
+    top: 318px;
+
+}
+.mobilesubmitButton{
+    position: absolute;
+    width: 87px;
+    height: 41px;
+    left: 33px;
+    top: 383px;
+    background: #364AFC;
+    border-radius: 8px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    border: none;
+}
+
+
+/* ****** DOMAIN EXPERTICE PAGE********* */
+
+.mobiledomainMainDiv{
+    position: relative;
+    width: 365px;
+    background: white;
+    min-height: 2726px;
+    top: 213px;
+    left: -5px;
+}
+.mobileyellowlineClass{
+    position: absolute;
+    width: 259px;
+    height: 5px;
+    left: 41px;
+    top: 84px;
+    background: #FCB705;
+}
+.mobiledomainMainTitle{
+    position: absolute;
+    width: 312px;
+    height: 43px;
+    left: 40px;
+    top: 55px;
+    font-family: Work Sans;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000000;
+    }
+.mobileartImageClass{
+        
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 39px;
+    top: 189px;
+
+}
+.mobileartTitleClass{
+    position: absolute;
+    width: 244px;
+    height: 29px;
+    left: 39px;
+    top: 422px;
+
+}
+.mobileartTitleClass,.mobilemachineTitleClass,
+.mobilemachineTitleClass2,.mobilecloudTitleClass{
+    font-family: Work Sans;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+
+}
+.mobileartparaClass,.mobilemachineparaClass,
+.mobilemachineparaClass2,.mobilecloudparaClass{
+    font-family: Work Sans;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.mobileartparaClass{
+    position: absolute;
+    width: 327px;
+    height: 192px;
+    left: 40px;
+    top: 489px;
+}
+.mobileartButton,.mobilemachineButton,
+.mobilemachineButton2,.mobilecloudButton{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    background: #424242;
+    font-family: Work Sans;
+    font-size: 16px;
+    line-height: 150%;
+    color: white;
+    text-transform: lowercase;
+    justify-content: center;
+    border: none;
+}
+.mobileartButton{
+    position: absolute;
+    width: 101px;
+    height: 44px;
+    left: 41px;
+    top: 723px;
+}
+.mobilemachineImageClass2{
+    position: absolute;
+    width: 262.63px;
+    height: 250px;
+    left: 41px;
+    top: 843px;
+}
+.mobilemachineTitleClass2{
+    position: absolute;
+    width: 244px;
+    height: 29px;
+    left: 39px;
+    top: 1074px;
+
+}
+.mobilemachineparaClass2{
+    position: absolute;
+    width: 327px;
+    height: 192px;
+    left: 40px;
+    top: 1139px;
+}
+.mobilemachineButton2{
+    position: absolute;
+    width: 101px;
+    height: 44px;
+    left: 41px;
+    top: 1376px;
+
+}
+.mobilemachineImageClass{
+    position: absolute;
+    top: 1500px;
+    left: 41px;
+    width: 289px;
+    height: 184px;
+}
+.mobilemachineTitleClass{
+    position: absolute;
+    width: 244px;
+    height: 29px;
+    left: 39px;
+    top: 1663px;
+
+}
+.mobilemachineparaClass{
+    position: absolute;
+    width: 327px;
+    height: 192px;
+    left: 40px;
+    top: 1733px;
+
+}
+.mobilemachineButton{
+    position: absolute;
+    width: 101px;
+    height: 44px;
+    left: 41px;
+    top: 1969px;
+
+}
+.mobilecloudImageClass2{
+    position: absolute;
+    width: 315px;
+    height: 212px;
+    left: 23px;
+    top: 2101px;
+}
+.mobilecloudTitleClass{
+    position: absolute;
+    width: 244px;
+    height: 29px;
+    left: 39px;
+    top: 2299px;
+
+}
+.mobilecloudparaClass{
+    position: absolute;
+    width: 327px;
+    height: 192px;
+    left: 40px;
+    top: 2372px;
+
+}
+.mobilecloudButton{
+    position: absolute;
+    width: 101px;
+    height: 44px;
+    left: 41px;
+    top: 2610px;
+
+}
+
+/* ******* FOOTER PAGE ******* */
+
+.mobilefooterMainDiv{
+    position: relative;
+    width: 361px;
+    height: 630px;
+    background: #AFB3BE;
+    top: 279px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.mobilefooterellipseImageOne{
+    position: absolute;
+    top: 6%;
+    left: 13%;
+}
+.mobilefooterellipseImageTwo{
+    position: absolute;
+    top: 7.1%;
+    left: 11.6%;
+}
+.mobilefooterellipseImageThree{
+    position: absolute;
+    top: 10.1%;
+    left: 16.6%;
+}
+.mobilefooterellipseImageFour{
+    position: absolute;
+    top: 6.1%;
+    left: 19.6%;
+}
+.mobilefooterellipseImageFive{
+    position: absolute;
+    top: 7.1%;
+    left: 20.6%;
+}
+.mobileipseClass,.mobileserviceClass,.mobilesocialClass{
+    font-family: Work Sans;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+}
+.mobileipseClass{
+    position: absolute;
+    width: 150px;
+    height: 29px;
+    left: 40px;
+    top: 91px;
+}
+.mobilelocationImage{
+    position: absolute;
+    top: 155px;
+    left: 45px;
+}
+.mobilelocationClass,.mobilemailClass,.mobilephoneClass,
+.mobileconnectionClass,.mobilecontactClass,.mobilepopularClass{
+    font-family: Work Sans;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+}
+.mobilelocationClass{
+   position: absolute;
+   top: 155px;
+   left: 72px;
+}
+.mobilemailImage{
+    position: absolute;
+    top: 189px;
+    left: 44px;
+}
+.mobilemailClass{
+    position: absolute;
+   top: 186px;
+   left: 74px;
+
+}
+.mobilephoneImage{
+    position: absolute;
+    top: 224px;
+    left: 45px;
+}
+.mobilephoneClass{
+    position: absolute;
+    top: 221px;
+    left: 75px;
+}
+.mobileserviceClass{
+    position: absolute;
+    top: 279px;
+    left: 40px;
+
+}
+.mobileconnectionClass{
+    position: absolute;
+    top: 321px;
+    left: 40px;
+
+}
+.mobilecontactClass{
+    position: absolute;
+    top: 349px;
+    left: 40px;
+
+}
+.mobilepopularClass{
+    position: absolute;
+    top: 377px;
+    left: 43px;
+
+}
+.mobilesocialClass{
+    position: absolute;
+    width: 150px;
+    height: 29px;
+    left: 40px;
+    top: 464px;
+}
+.mobilelinkImage{
+    position: absolute;
+    top: 526px;
+    left: 43px;
+
+}
+.mobilefaceImage{
+    position: absolute;
+    top: 526px;
+    left: 82px;
+
+}
+.mobiletwitImage{
+    position: absolute;
+    top: 528px;
+    left: 120px;
+
+}

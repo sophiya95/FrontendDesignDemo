@@ -1,167 +1,190 @@
 import React from 'react'
-import './LandingPage.css'
-import rectangleimage from '../../asset/Rectangle 11.png'
-import rectangleimage2 from '../../asset/Rectangle 12.png'
-import rectangleimage3 from '../../asset/Rectangle 13.png'
-import ellipseImage from '../../asset/Ellipse 2.png'
-import circletwoimage from '../../asset/Vector 11.png'
-import circlethreeimage from '../../asset/Ellipseee.png'
-import circlefourimage from '../../asset/Ellipse 2.png'
-import circlefiveimage from '../../asset/Line 11.png'
-import firstimage from '../../asset/Hero Image.png'
-import secondimage from '../../asset/image 6.png'
-import thirdimage from '../../asset/image 9.png'
-import fourthimage from '../../asset/image 7.png'
-import fifthimage from '../../asset/image 11.png'
-import sixthimage from '../../asset/Ellipse 2.png'
-import seventhimage from '../../asset/Vector.png'
-import mailimage from '../../asset/Vector 1.png'
-import phoneimage from '../../asset/Vector 2.png'
-import linkimage from '../../asset/Vector 3.png'
-import faceimage from '../../asset/Vector 4.png'
-import twitimage from '../../asset/Vector 5.png'
+import './MobileView.css'
+import rectImage1 from '../../asset/Rectangle 11.png'
+import rectImage2 from '../../asset/Rectangle 12.png'
+import rectImage3 from '../../asset/Rectangle 13.png'
+import ellipseImage1 from '../../asset/Ellipse 2.png'
+import ellipseImage2 from '../../asset/Vector 11.png'
+import ellipseImage3 from '../../asset/Ellipse 3.png'
+import ellipseImage4 from '../../asset/Ellipse 4.png'
+import ellipseImage5 from '../../asset/Line 11.png'
+import heroImage from '../../asset/Hero Image.png'
+import mobileartImage from '../../asset/image 6.png'
+import mobilemachineImage from '../../asset/image 9.png'
+import machineImage2 from '../../asset/image 7.png'
+import cloudImage2 from '../../asset/image 11.png'
+import footerellipseImage1 from '../../asset/Ellipse 2.png'
+import footerellipseImage2 from '../../asset/Vector 11.png'
+import footerellipseImage3 from '../../asset/Ellipse 3.png'
+import footerellipseImage4 from '../../asset/Ellipse 4.png'
+import footerellipseImage5 from '../../asset/Line 11.png'
+import locationImage from '../../asset/Vector.png'
+import mailImage from '../../asset/Vector 1.png'
+import phoneImage from '../../asset/Vector 2.png'
+import linkImage from '../../asset/Vector 3.png'
+import faceImage from '../../asset/Vector 4.png'
+import twitImage from '../../asset/Vector 5.png'
+
 
 function HomeMobile() {
     return (
         <div>
-         <div class="uk-hidden@s "  style={{background:'lavender',width:'111%',position:'relative'}}>
-            
-            
-             {/* LANDING PAGE */}
-                <div class="uk-container">
-                        <div className="mobilelandingPage" style={{background:'white',width:'110%',position:'relative',minHeight:'770px',top:'0px',left:'-15px'}}>
-                                <nav class="mobilenavbarClass uk-navbar-container uk-margin" uk-navbar="mode: click" style={{display: 'flex',flexDirection: 'row',justifyContent: 'space-between',alignItems: 'center',padding: '21px 32px',position: 'absolute',width: '333px',height: '31px',left: '0px',top: '0px',background: '#AFB3BE'}}>
-                                        <div class="uk-navbar-left" >
 
-                                        <ul class="uk-navbar-nav" >
-                                            <img src={rectangleimage} alt="" class="rectImage "></img>
-                                            <img src={rectangleimage2} alt="" class="rectImage2 "></img>
-                                            <img src={rectangleimage3} alt="" class="rectImage3 "></img>
-                                            <img src={ellipseImage} alt="" class="ellipseImage "></img>
-                                            <img src={circletwoimage} alt="" class="mobilecircleImage "></img>
-                                            <img src={circlethreeimage} alt="" class="mobilecirclethreeImage "></img>
-                                            <img src={circlefourimage} alt="" class="mobilecirclefourImage "></img>
-                                            <img src={circlefiveimage} alt="" class="mobilecirclefiveImage "></img>
-                                            <li><a href="#" style={{textTransform:'capitalize',color:'black',font:'Work Sans',size:'18px',position: 'absolute',width: '41px',height: '22px',left: '13px',top: '-8px',fontFamily: 'Work Sans',fontSize: '18px',lineHeight: '120%',margin:'0px 274px',opacity: '0.85',flex: 'none',order: '1',flexGrow: '0'}}>Help</a></li>
-                                        
-                                        </ul>
+            <div class="mobileParentDiv uk-hidden@s">
 
-                                        </div>
-                                </nav>
-                                <div class="uk-column-1-2">
-                                        <h2 className="mobileconnectedClass" >Let's Stay<br/>Connected</h2>                                       
-                                        <p class="paraClass1">At lorem ipsum we help <br/>connect people with each <br/>other without any worries </p>                                                                     
-                                        <img src={firstimage} alt="" class="mobilefirstImage " ></img>
-                                        <button class="mobilelearnButton uk-button uk-button-default"  >Learn More</button>
-                                        <button class="mobileconnectButton uk-button uk-button-danger">Connect</button>
-                                      
-
-                                </div>
-                            
-                        </div>
-                </div>
-
-                {/* FORM PAGE */}
-
-                <div style={{background: '#E6E6E6',width:'89%',position:'relative',top:'18px',left:'22px',height:'812px'}}>
-                <div class="uk-container">
-                    <div class="mobileformPage" style={{background:'white',display:'flex',flexDirection:'column',alignItems:'flex-start',padding:'24px',position:'absolute',width:'269px',height:'423px',left:'21px',top:'181px',borderRadius:'8px'}}>
-                        <h3 class="mobileformTitle" style={{color:'black',position: 'absolute',width: '171px',height: '28px',left: '24px',top: '1px',fontWeight:'500',fontFamily: 'Roboto',fontSize: '24px',fontStyle:'normal',lineHeight: '28px',margin: '24px 0px',flex:'none'}}>Fill out the form</h3><br/><br/>
-                        <form>
-                            <label class="mobilenameLabel" style={{color:'black',position: 'static',width: '197px',height: '21px',left: '0px',top: '0px',fontFamily: 'Work Sans',fontSize: '18px',lineHeight: '21px',margin: '12px 0px 12px 6px'}}>Name of the applicant</label>
-                            <input class="mobileapplicantName" type="text" placeholder="Enter Name" style={{position:'absolute',left:'29px',top:'105px',width:'75%',padding:'12px',border:'1px solid #ccc',borderRadius:'4px',resize:'vertical',background:'white'}} disabled></input>
-                            <label class="mobileoccupationLabel" style={{color:'black',position: 'absolute',width: '101px',height: '21px',left: '10px',top: '150px',fontFamily: 'Work Sans',fontSize: '18px',lineHeight: '21px',margin: '12px 0px 12px 23px'}}>Occupation</label><br/>
-                            <input class="mobileapplicantOccupation" type="text" placeholder="Enter Occupation" style={{position:'absolute',left:'33px',top:'192px',width:'75%',padding:'12px',border:'1px solid #ccc',borderRadius:'4px',resize:'vertical',background:'white'}} disabled></input><br/>
-                            <label class="mobileaddressLabel" style={{color:'black',position: 'absolute',width: '71px',height: '21px',left: '37px',top: '252px',fontFamily: 'Work Sans',fontSize: '18px',lineHeight: '21px',flex:'none'}}>Address</label><br/>
-                            <input class="mobileapplicantAddress" type="text" placeholder="Enter Address" style={{position:'absolute',top:'282px',left:'36px',width:'75%',padding:'12px',border:'1px solid #ccc',borderRadius:'4px',resize:'vertical',background:'white'}} disabled></input><br/>
-                            <button class="mobileSubmitButton uk-button uk-button-primary" style={{position:'absolute',borderRadius:'8px',left:'38px',top:'347px',display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center',padding:'10px 15px',width:'87px',height:'41px',textTransform:'capitalize'}}>Submit</button>
-                        </form>
-                       
-
-                    </div>
-                   
-                </div>
-               
-            </div>
-            
-
-
-            {/* DOMAIN EXPERTICE PAGE */}
-
-            <div class="uk-container">
-                    <div class="mobiledomainPage " style={{background:'white',minHeight:'3000px',width:'111%',position:'relative',top:'190px',left:'-15px'}}>
-                        
-                        <h3 class="mobiledomainTitle" style={{color:'black',position: 'absolute',width: '312px',height: '43px',left: '2px',top: '10px',fontFamily: 'Work Sans',fontSize: '36px',lineHeight: '525%',marginLeft: '6%'}}>Domain Expertice</h3>
-                        <p style={{border:'2px solid #FCB705',width:'261px',height:'0px',position:'absolute',left:'24px',top:'56px'}}></p>
-                        <div></div>
-                        
-                            <img src={secondimage} alt="" class="mobilesecondImage "  style={{position: 'absolute',width: '250px',height: '250px',left: '27px',top: '171px'}}></img>
-                            <h3 class="mobileartificialClass">Artificial Intelligence</h3>
-                            <p class="mobileartparaClass" >Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit. Sed turpis condimentum<br/> consectetur placerat lobortis nibh sed<br/> consequat. Nunc pharetra cras vitae<br/> consequat facilisis phasellus. Habitant<br/> egestas id tellus sed urna ultricies<br/> ullamcorper. Sed fusce elit nec, in<br/> commodo, ac.</p>
-                            <button class="mobilereadButtonone uk-button uk-button-secondary" style={{textTransform:'lowercase'}}>read more</button>
-
-                            <img src={fourthimage} alt="" class="mobileFourthImage "></img>
-                            <h3 class="mobilemachineClass">Machine Learning</h3>
-                            <p class="mobilemachineparaClass">Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit. Sed turpis condimentum<br/> consectetur placerat lobortis nibh sed<br/> consequat. Nunc pharetra cras vitae<br/> consequat facilisis phasellus. Habitant<br/> egestas id tellus sed urna ultricies<br/> ullamcorper. Sed fusce elit nec, in<br/> commodo, ac.</p>
-                            <button class="mobilereadButtontwo uk-button uk-button-secondary" style={{textTransform:'lowercase'}}>read more</button>
-                            
-                            <img src={thirdimage} alt="" class="mobilethirdImage "></img>
-                            <h3 class="mobilemachinelearningClass">Machine Learning</h3>
-                            <p class="mobilemachinelearningparaClass">Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit. Sed turpis condimentum<br/> consectetur placerat lobortis nibh sed<br/> consequat. Nunc pharetra cras vitae<br/> consequat facilisis phasellus. Habitant<br/> egestas id tellus sed urna ultricies<br/> ullamcorper. Sed fusce elit nec, in<br/> commodo, ac.</p>
-                            <button class="mobilereadButtonthree uk-button uk-button-secondary" style={{textTransform:'lowercase'}}>read more</button>
-
-                           
-
-                            <img src={fifthimage} alt="" class="mobileFifthImage "></img>
-                            <h3 class="mobileCloudClass">Cloud computing</h3>
-                            <p class="mobileCloudparaClass">Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit. Sed turpis condimentum<br/> consectetur placerat lobortis nibh sed<br/> consequat. Nunc pharetra cras vitae<br/> consequat facilisis phasellus. Habitant<br/> egestas id tellus sed urna ultricies<br/> ullamcorper. Sed fusce elit nec, in<br/> commodo, ac.</p>
-                            <button class="mobilereadButtonfour uk-button uk-button-secondary" style={{textTransform:'lowercase'}}>read more</button>
-                        
-                        
-                        <br/><br/><br/>
-
-                    </div>
-                </div>
-
-
-                {/* FOOTER SECTION */}
-                <footer>
-            <div  class="uk-container">
-                <div class="footerPage " style={{background:'#AFB3BE',position:'relative',width:'110%',marginLeft:'-5%',marginTop:'55%',marginBottom:'8%',minHeight:'629px'}}>
+                {/* ****** LANDING PAGE ******** */}
+                
+                <div class='mobileLandingPage uk-width-medium uk-align-center' >
                     
-                        <img src={sixthimage} alt="" class="mobilesixthImage "></img>
-                        <img src={circletwoimage} alt="" class="mobileEllipse2 "></img>
-                        <img src={circlethreeimage} alt="" class="mobileEllipse3 "></img>
-                        <img src={circlefourimage} alt="" class="mobileEllipse4 "></img>
-                        <img src={circlefiveimage} alt="" class="mobileEllipse5 "></img>
-                        
-                        <p class="mobileipseClass">Lorenza Ipse </p><br/>
-                        <img src={seventhimage} alt="" class="mobileseventhImage "></img>
-                        <p class="mobilelocationClass uk-text-middle" >Location</p>
-                        <img src={mailimage} alt="" class="mobilemailImage " ></img>
-                        <p class="mobileMailClass uk-text-middle" >type@mymail.com</p>
-                        <img src={phoneimage} alt="" class="mobilephoneImage "></img>
-                        <p class="mobilephoneClass uk-text-middle">+91 968656665</p>
-                        
-                        <p class="mobileServiceClass">Services </p>
-                        <p class="mobileconnectionClass">Connections</p>
-                        <p class="mobilecontactClass">Contacts</p>
-                        <p class="mobilepopularClass">Popular</p>
-                        
-                        
-                        <p class="mobileFollowClass">Follow us on </p>  
-                        <img src={linkimage} alt="" class="mobileLinkImage "></img>
-                        <img src={faceimage} alt="" class="mobileFaceImage "></img>
-                        <img src={twitimage} alt="" class="mobileTwitImage "></img>
-                        <br/><br/>
-                   
+                    <nav class="mobilenavbarClass uk-navbar uk-width-1-1" uk-navbar="true">
+                        <div class="uk-navbar-left">
+                            <ul class="uk-navbar-nav" >
+                                <li><img src={rectImage1} alt="" class="mobilerectImageOne"/></li>
+                                <li><img src={rectImage2} alt="" class="mobilerectImageTwo"/></li>
+                                <li><img src={rectImage3} alt="" class="mobilerectImageThree"/></li>
+                                <li><img src={ellipseImage1} alt="" class="mobileellipseImageOne"/></li>
+                                <li><img src={ellipseImage2} alt="" class="mobileellipseImageTwo"/></li>
+                                <li><img src={ellipseImage3} alt="" class="mobileellipseImageThree"/></li>
+                                <li><img src={ellipseImage4} alt="" class="mobileellipseImageFour"/></li>
+                                <li><img src={ellipseImage5} alt="" class="mobileellipseImageFive"/></li>
+                            </ul>
+                        </div>
+                        <div class="uk-navbar-right">
+                            <p><a href="#" class="mobileExploreclass uk-active" style={{color:'black'}}>Help</a></p>
+                        </div>
+                    </nav>
+
+                    <h3 class="mobilemainheadingClass">Lets Stay Connected</h3>
+                    <p class="mobilelandpageparaClass">At lorem ipsum we help <br/>connect  people with each <br/>other without any worries</p>
+                    <img src={heroImage} alt="" class="mobileheroImageClass"/>
+
+                    <button class="mobilelearnmoreButton">Learn More</button>
+                    <button class="mobileconnectButton">Connect</button>
+
                 </div>
+
+
+            {/* ******* FORM PAGE ******** */}
+            
+            <div class="mobileformMaindiv uk-align-center">
+                <div class='mobileformPage uk-width-medium uk-align-center' >
+                    <h3 class="mobileformTitle">Fill out the form</h3>
+                    <form>
+                    <div class="uk-margin">
+                        <label class="mobilenameLabelClass">Name of the applicant</label>
+                        <input class="mobileNameClass uk-input uk-width-expand" type="text" placeholder="Enter Name" disabled/>
+
+                        <label class="mobileoccupationLabelClass">Occupation</label>
+                        <input class="mobileoccupationClass uk-input uk-width-expand" type="text" placeholder="Enter Occupation" disabled/>
+
+                        <label class="mobileaddressLabelClass">Address</label>
+                        <input class="mobileaddressClass uk-input uk-width-expand" type="text" placeholder="Enter Address" disabled/>
+
+                        <button class="mobilesubmitButton">Submit</button>
+                    </div>
+                </form>
+                </div>
+
             </div>
-        </footer>
+
+
+            {/* ****** DOMAIN EXPERTICE PAGE********* */}
+
+            <div class="mobiledomainMainDiv uk-align-center">
+                <p class="mobileyellowlineClass"></p>
+                <h3 class="mobiledomainMainTitle">Domain Expertise</h3>
+                   
+                    <img src={mobileartImage} alt="" class="mobileartImageClass"/>
+                    <h3 class="mobileartTitleClass">Artificial Intelligence</h3>
+                    <p class="mobileartparaClass">
+                        Lorem ipsum dolor sit amet, consectetur <br/>
+                        adipiscing elit.Sed turpis condimentum <br/>
+                        consectetur placerat lobortis nibh sed<br/> 
+                        consequat. Nunc pharetra cras vitae <br/> 
+                        consequat facilisis phasellus. Habitant<br/> 
+                        egestas id tellus sed urna ultricies<br/> 
+                        ullamcorper. Sed fusce elit nec, in <br/>commodo, ac.
+                    </p>
+                    <button class="mobileartButton">read more</button>
+
+                    <img src={machineImage2} alt="" class="mobilemachineImageClass2"/>
+                    <h5 class="mobilemachineTitleClass2">Machine Learning</h5>
+                    <p class="mobilemachineparaClass2">
+                        Lorem ipsum dolor sit amet, consectetur <br/>
+                        adipiscing elit.Sed turpis condimentum <br/>
+                        consectetur placerat lobortis nibh sed<br/> 
+                        consequat. Nunc pharetra cras vitae <br/> 
+                        consequat facilisis phasellus. Habitant<br/> 
+                        egestas id tellus sed urna ultricies<br/> 
+                        ullamcorper. Sed fusce elit nec, in <br/>commodo, ac.
+                    </p>
+                    <button class="mobilemachineButton2">read more</button>
+
+                    <img src={mobilemachineImage} alt="" class="mobilemachineImageClass"/>
+                    <h3 class="mobilemachineTitleClass">Machine Learning</h3>
+                    <p class="mobilemachineparaClass">
+                        Lorem ipsum dolor sit amet, consectetur <br/>
+                        adipiscing elit.Sed turpis condimentum <br/>
+                        consectetur placerat lobortis nibh sed<br/> 
+                        consequat. Nunc pharetra cras vitae <br/> 
+                        consequat facilisis phasellus. Habitant<br/> 
+                        egestas id tellus sed urna ultricies<br/> 
+                        ullamcorper. Sed fusce elit nec, in <br/>commodo, ac.
+                    </p>
+                    <button class="mobilemachineButton">read more</button>
+
+                    <img src={cloudImage2} alt="" class="mobilecloudImageClass2"/>
+                    <h5 class="mobilecloudTitleClass">Cloud computing</h5>
+                    <p class="mobilecloudparaClass">
+                        Lorem ipsum dolor sit amet, consectetur <br/>
+                        adipiscing elit.Sed turpis condimentum <br/>
+                        consectetur placerat lobortis nibh sed<br/> 
+                        consequat. Nunc pharetra cras vitae <br/> 
+                        consequat facilisis phasellus. Habitant<br/> 
+                        egestas id tellus sed urna ultricies<br/> 
+                        ullamcorper. Sed fusce elit nec, in <br/>commodo, ac.
+
+                    </p>
+                    <button class="mobilecloudButton">read more</button>
+                
+            </div>
+
+
+             {/* ********FOOTER PAGE********** */}
+
+            <div class="mobilefooterMainDiv uk-align-center">
+
+                <img src={footerellipseImage1} alt="" class="mobilefooterellipseImageOne"/>
+                <img src={footerellipseImage2} alt="" class="mobilefooterellipseImageTwo"/>
+                <img src={footerellipseImage3} alt="" class="mobilefooterellipseImageThree"/>
+                <img src={footerellipseImage4} alt="" class="mobilefooterellipseImageFour"/>
+                <img src={footerellipseImage5} alt="" class="mobilefooterellipseImageFive"/>
+
+                <p class="mobileipseClass">Lorenza Ipse</p>
+                <img src={locationImage} alt="" class="mobilelocationImage"/>
+                <span class="mobilelocationClass">Location</span>
+                <img src={mailImage} alt="" class="mobilemailImage"/>
+                <span class="mobilemailClass">type@mymail.com</span>
+                <img src={phoneImage} alt="" class="mobilephoneImage"/>
+                <span class="mobilephoneClass">+91 968656665</span>
+
+                <p class="mobileserviceClass">Services</p>
+                <p class="mobileconnectionClass">Connections</p>
+                <p class="mobilecontactClass">Contacts</p>
+                <p class="mobilepopularClass">Popular</p>
+
+                <p class="mobilesocialClass">Follow us on</p>
+                <img src={linkImage} alt="" class="mobilelinkImage"/>
+                <img src={faceImage} alt="" class="mobilefaceImage"/>
+                <img src={twitImage} alt="" class="mobiletwitImage"/>
+
+            </div>
+
+
+
+            </div>
             
-    </div>
-            
-     </div>
+        </div>
     )
 }
 
